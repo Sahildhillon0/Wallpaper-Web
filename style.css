@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .head{
     color:#0d0d0e;
     text-align: center;
     font-style:oblique;
     border-style: solid;
     border-color: #000000;
-    border-top-right-radius: 1cm;
-    border-bottom-right-radius: 1cm;
-    border-top-left-radius: 1cm;
-    border-bottom-left-radius: 1cm;
+    border-radius: 5px;
     background:linear-gradient(90deg,#7c2b92 ,#3c7c91, #863d75);
     box-shadow: 0 0 56px rgb(35, 70, 96);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    height:35px;
 }
 .head:hover{
-    border-style: dashed;
     cursor: default;
 }
 
@@ -35,10 +36,11 @@
 }
 
 .Gojo:hover{
-    border-style:dashed;
-    border-color: rgb(181, 0, 253);
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
     scale: 1;
     transition-duration: 250ms;
+    box-shadow: 0 0 45px #ffffff;
     
 }
 .Gojo:not(:hover){
@@ -57,4 +59,40 @@ span{
     font-size: large;
     border-radius: 20%;
     margin:1px;
+}
+
+.home{
+    width: 28px;
+    height:28px;
+    margin-top: 4px;
+}
+
+
+.h{
+    margin-left: 40%;
+    color:#0d0d0e;
+    text-align: center;
+    font-style:oblique;
+    font-family: 'poppins',sans-serif;
+    text-align:justify;
+}
+
+#a_nav{
+    color:#000000;
+}
+#a_nav:hover{
+    color: rgb(255, 255, 255)
+}
+
+.user{
+    margin-left: 38.5%;
+    margin-top: 4px;
+}
+
+.h:hover{
+    color: white;
+}
+
+#heading{
+    margin-top: -6px;
 }
