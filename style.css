@@ -6,12 +6,14 @@
     font-style:oblique;
     border-style: solid;
     border-color: #000000;
-    border-radius: 5px;
+    border-radius: 15px;
     background:linear-gradient(90deg,#7c2b92 ,#3c7c91, #863d75);
     box-shadow: 0 0 56px rgb(35, 70, 96);
     font-family: 'poppins', sans-serif;
     display: flex;
     height:35px;
+    width: 98vw;
+    box-sizing: border-box;
 }
 .head:hover{
     cursor: default;
@@ -65,11 +67,26 @@ span{
     width: 28px;
     height:28px;
     margin-top: 4px;
+    margin-left: 1vw;
 }
 
+.aboutus{
+    width: 28px;
+    height:28px;
+    margin-top: 4px;
+    margin-left: 35vw;
+}
+
+#about{
+    color: black;
+}
+
+#about:hover{
+    color: white;
+}
 
 .h{
-    margin-left: 40%;
+    margin-left:37vw;
     color:#0d0d0e;
     text-align: center;
     font-style:oblique;
@@ -85,7 +102,7 @@ span{
 }
 
 .user{
-    margin-left: 38.5%;
+    margin-left: 1vw;
     margin-top: 4px;
 }
 
@@ -94,5 +111,5 @@ span{
 }
 
 #heading{
-    margin-top: -6px;
+    margin-top: -7px;
 }
